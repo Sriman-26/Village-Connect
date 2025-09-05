@@ -10,7 +10,7 @@ function Userlogin(){
                     <div>
                         <label className="block text-sm font-medium text-gray-700">Email</label>
                         <input type="email"
-                        placeholder="Enter Your Email :"
+                        placeholder="Enter Your Email"
                         className="mt-1 w-full px-3 py-2 border rounded-lg 
                         focus:outline-none 
                         focus:ring-2 
