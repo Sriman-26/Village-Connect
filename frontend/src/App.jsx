@@ -7,6 +7,8 @@ import Register from "./components/Register.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./components/Home.jsx";
 import Footer from "./components/Footer.jsx";
+import Schemes from "./components/Schemes.jsx";
+import Requests from "./components/Requests.jsx";
 function App(){
   return(
     <div>
@@ -14,8 +16,8 @@ function App(){
       <div className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/schemes" element={<Home />}></Route>
-          <Route path="/requests" element={<Home />}></Route>
+          <Route path="/schemes" element={<Schemes />}></Route>
+          <Route path="/requests" element={<Requests />}></Route>
           <Route path="/userlogin" element={<Userlogin />}></Route>
           <Route path="/Adminlogin" element={<Adminlogin />}></Route>
           <Route path="/register" element={<Register />}></Route>
